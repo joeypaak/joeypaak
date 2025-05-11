@@ -1,16 +1,22 @@
-## Hi there 👋
+## 🌟 who i m
 
-<!--
-**joeypaak/joeypaak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+import typer
+from textual.app import App
+from fastapi import FastAPI
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+who_i_m = {
+    "role": "nursing student", # 🧑🏻‍⚕️
+    "region": "south korea", # 🇰🇷
+    "languages": ["javascript", "python", "english", "korean"],
+    "socials": ["instagram", "twitter", "telegram"],
+    "others": "deep learning", # 🤖
+}
+
+def main():
+    print(who_i_m)
+
+if __name__ == "__main__":
+    main()
+```
